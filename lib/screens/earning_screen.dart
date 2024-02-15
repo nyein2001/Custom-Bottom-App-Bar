@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 
 class EarningScreen extends StatelessWidget {
-  final GlobalKey scaffoldKey;
-  const EarningScreen({super.key, required this.scaffoldKey});
+  const EarningScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      key: scaffoldKey,
-      body: const Center(
-        child: Text('Earning Screen'),
-      ),
-    );
+    return const Scaffold(
+        body: Center(
+      child: Text('Earning Screen'),
+    ));
   }
 }

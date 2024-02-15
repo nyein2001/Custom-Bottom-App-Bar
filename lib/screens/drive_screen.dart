@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 
 class DriveScreen extends StatelessWidget {
-  final GlobalKey<ScaffoldState> scaffoldKey;
-
-  const DriveScreen({super.key, required this.scaffoldKey});
+  const DriveScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      key: scaffoldKey,
-      body: const Center(
-        child: Text('Drive Screen'),
+    return const Scaffold(
+      body: Center(
+        child: Text('Main Screen'),
       ),
     );
   }
